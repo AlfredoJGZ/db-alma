@@ -1,0 +1,10 @@
+{
+    "version": 2,
+    "name": "db-alma",
+    "routes": [
+        {"src": "/api/(.*)", "dest": "/api/index.js"}
+    ],
+    "env": {
+        "MONGODB_URI": "@mongodb_uri"
+    }
+}
